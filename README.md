@@ -1,6 +1,6 @@
 FGGSwitch 简介<br>
-![演示](https://github.com/Insfgg99x/FGGSwitch/blob/master/on.png)<br>
-![演示](https://github.com/Insfgg99x/FGGSwitch/blob/master/off.png)<br>
+![演示](https://github.com/Insfgg99x/FGGSwtich/blob/master/on.png)<br>
+![演示](https://github.com/Insfgg99x/FGGSwtich/blob/master/off.png)<br>
 <br>
 -----------------------------------------------------------------------------------------<br>
 一、前言：<br>
