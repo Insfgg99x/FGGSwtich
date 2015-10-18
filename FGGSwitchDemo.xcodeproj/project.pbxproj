@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182E239B1BD3A71100B679CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E239A1BD3A71100B679CF /* main.m */; };
+		182E239E1BD3A71100B679CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E239D1BD3A71100B679CF /* AppDelegate.m */; };
+		182E23A11BD3A71100B679CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E23A01BD3A71100B679CF /* ViewController.m */; };
+		182E23A41BD3A71100B679CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182E23A21BD3A71100B679CF /* Main.storyboard */; };
+		182E23A61BD3A71100B679CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E23A51BD3A71100B679CF /* Images.xcassets */; };
+		182E23A91BD3A71100B679CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182E23A71BD3A71100B679CF /* LaunchScreen.xib */; };
+		182E23B51BD3A71200B679CF /* FGGSwitchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E23B41BD3A71200B679CF /* FGGSwitchDemoTests.m */; };
+		182E23C11BD3A72200B679CF /* FGGSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E23C01BD3A72200B679CF /* FGGSwitch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182E23AF1BD3A71200B679CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182E238D1BD3A71100B679CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182E23941BD3A71100B679CF;
+			remoteInfo = FGGSwitchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182E23951BD3A71100B679CF /* FGGSwitchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGGSwitchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182E23991BD3A71100B679CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182E239A1BD3A71100B679CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182E239C1BD3A71100B679CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182E239D1BD3A71100B679CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182E239F1BD3A71100B679CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182E23A01BD3A71100B679CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182E23A31BD3A71100B679CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182E23A51BD3A71100B679CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		182E23A81BD3A71100B679CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		182E23AE1BD3A71200B679CF /* FGGSwitchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGGSwitchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182E23B31BD3A71200B679CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182E23B41BD3A71200B679CF /* FGGSwitchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGGSwitchDemoTests.m; sourceTree = "<group>"; };
+		182E23BF1BD3A72200B679CF /* FGGSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGGSwitch.h; sourceTree = "<group>"; };
+		182E23C01BD3A72200B679CF /* FGGSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGGSwitch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182E23921BD3A71100B679CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182E23AB1BD3A71200B679CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182E238C1BD3A71100B679CF = {
+			isa = PBXGroup;
+			children = (
+				182E23BE1BD3A72200B679CF /* FGGSwitch */,
+				182E23971BD3A71100B679CF /* FGGSwitchDemo */,
+				182E23B11BD3A71200B679CF /* FGGSwitchDemoTests */,
+				182E23961BD3A71100B679CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182E23961BD3A71100B679CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182E23951BD3A71100B679CF /* FGGSwitchDemo.app */,
+				182E23AE1BD3A71200B679CF /* FGGSwitchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182E23971BD3A71100B679CF /* FGGSwitchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				182E239C1BD3A71100B679CF /* AppDelegate.h */,
+				182E239D1BD3A71100B679CF /* AppDelegate.m */,
+				182E239F1BD3A71100B679CF /* ViewController.h */,
+				182E23A01BD3A71100B679CF /* ViewController.m */,
+				182E23A21BD3A71100B679CF /* Main.storyboard */,
+				182E23A51BD3A71100B679CF /* Images.xcassets */,
+				182E23A71BD3A71100B679CF /* LaunchScreen.xib */,
+				182E23981BD3A71100B679CF /* Supporting Files */,
+			);
+			path = FGGSwitchDemo;
+			sourceTree = "<group>";
+		};
+		182E23981BD3A71100B679CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182E23991BD3A71100B679CF /* Info.plist */,
+				182E239A1BD3A71100B679CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182E23B11BD3A71200B679CF /* FGGSwitchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				182E23B41BD3A71200B679CF /* FGGSwitchDemoTests.m */,
+				182E23B21BD3A71200B679CF /* Supporting Files */,
+			);
+			path = FGGSwitchDemoTests;
+			sourceTree = "<group>";
+		};
+		182E23B21BD3A71200B679CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182E23B31BD3A71200B679CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182E23BE1BD3A72200B679CF /* FGGSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				182E23BF1BD3A72200B679CF /* FGGSwitch.h */,
+				182E23C01BD3A72200B679CF /* FGGSwitch.m */,
+			);
+			path = FGGSwitch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182E23941BD3A71100B679CF /* FGGSwitchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182E23B81BD3A71200B679CF /* Build configuration list for PBXNativeTarget "FGGSwitchDemo" */;
+			buildPhases = (
+				182E23911BD3A71100B679CF /* Sources */,
+				182E23921BD3A71100B679CF /* Frameworks */,
+				182E23931BD3A71100B679CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGGSwitchDemo;
+			productName = FGGSwitchDemo;
+			productReference = 182E23951BD3A71100B679CF /* FGGSwitchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182E23AD1BD3A71200B679CF /* FGGSwitchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182E23BB1BD3A71200B679CF /* Build configuration list for PBXNativeTarget "FGGSwitchDemoTests" */;
+			buildPhases = (
+				182E23AA1BD3A71200B679CF /* Sources */,
+				182E23AB1BD3A71200B679CF /* Frameworks */,
+				182E23AC1BD3A71200B679CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182E23B01BD3A71200B679CF /* PBXTargetDependency */,
+			);
+			name = FGGSwitchDemoTests;
+			productName = FGGSwitchDemoTests;
+			productReference = 182E23AE1BD3A71200B679CF /* FGGSwitchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182E238D1BD3A71100B679CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "风过的夏";
+				TargetAttributes = {
+					182E23941BD3A71100B679CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					182E23AD1BD3A71200B679CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 182E23941BD3A71100B679CF;
+					};
+				};
+			};
+			buildConfigurationList = 182E23901BD3A71100B679CF /* Build configuration list for PBXProject "FGGSwitchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182E238C1BD3A71100B679CF;
+			productRefGroup = 182E23961BD3A71100B679CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182E23941BD3A71100B679CF /* FGGSwitchDemo */,
+				182E23AD1BD3A71200B679CF /* FGGSwitchDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182E23931BD3A71100B679CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E23A41BD3A71100B679CF /* Main.storyboard in Resources */,
+				182E23A91BD3A71100B679CF /* LaunchScreen.xib in Resources */,
+				182E23A61BD3A71100B679CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182E23AC1BD3A71200B679CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182E23911BD3A71100B679CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E23C11BD3A72200B679CF /* FGGSwitch.m in Sources */,
+				182E23A11BD3A71100B679CF /* ViewController.m in Sources */,
+				182E239E1BD3A71100B679CF /* AppDelegate.m in Sources */,
+				182E239B1BD3A71100B679CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182E23AA1BD3A71200B679CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E23B51BD3A71200B679CF /* FGGSwitchDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182E23B01BD3A71200B679CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182E23941BD3A71100B679CF /* FGGSwitchDemo */;
+			targetProxy = 182E23AF1BD3A71200B679CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182E23A21BD3A71100B679CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182E23A31BD3A71100B679CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182E23A71BD3A71100B679CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182E23A81BD3A71100B679CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182E23B61BD3A71200B679CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182E23B71BD3A71200B679CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182E23B91BD3A71200B679CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FGGSwitchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182E23BA1BD3A71200B679CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FGGSwitchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		182E23BC1BD3A71200B679CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FGGSwitchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGGSwitchDemo.app/FGGSwitchDemo";
+			};
+			name = Debug;
+		};
+		182E23BD1BD3A71200B679CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FGGSwitchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGGSwitchDemo.app/FGGSwitchDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182E23901BD3A71100B679CF /* Build configuration list for PBXProject "FGGSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182E23B61BD3A71200B679CF /* Debug */,
+				182E23B71BD3A71200B679CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182E23B81BD3A71200B679CF /* Build configuration list for PBXNativeTarget "FGGSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182E23B91BD3A71200B679CF /* Debug */,
+				182E23BA1BD3A71200B679CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		182E23BB1BD3A71200B679CF /* Build configuration list for PBXNativeTarget "FGGSwitchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182E23BC1BD3A71200B679CF /* Debug */,
+				182E23BD1BD3A71200B679CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182E238D1BD3A71100B679CF /* Project object */;
+}
