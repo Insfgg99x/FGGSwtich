@@ -45,11 +45,11 @@
 {
     if(_fggSwitch.isOn)
     {
-        NSLog(@"开关打开了");
+        NSLog(@"打开了");
     }
     else
     {
-        NSLog(@"开关关闭了");
+        NSLog(@"关闭了");
     }
 }
 /**
@@ -61,7 +61,7 @@
     tipLb.textColor=[UIColor redColor];
     tipLb.numberOfLines=0;
     tipLb.font=[UIFont systemFontOfSize:16];
-    NSString *tip=@"FGGSwitch虽然看起来和UISwitch差不多，但嘴本质的区别是：FGGSwitch可以随意改变大小，而UISwtich则不能改变大小(其大小固定为53x31)！";
+    NSString *tip=@"FGGSwitch虽然看起来和UISwitch差不多，但最本质的区别是：FGGSwitch可以随意改变大小，而UISwtich则不能改变大小(其大小固定为53x31)！";
     tipLb.text=tip;
     [self.view addSubview:tipLb];
 }
