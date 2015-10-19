@@ -17,7 +17,7 @@ FGGSwitch 简介<br>
 <br>
 @optinal<br>
 <br>
-3.你可以调用addTarget:(id)target ForSwitchValueDidChangedAction:(SEL)action方法为FGGSwitch对象添加开关状态改变时调用的方法。<br>
+3.你可以调用addTarget:(id)target forSwitchValueDidChangedAction:(SEL)action方法为FGGSwitch对象添加开关状态改变时调用的方法。<br>
 ------------------------------------------------------------------------<br>
 可能会更新，请参考gitHub代码地址：https://github.com/Insfgg99x/FGGSwtich.git 请多多支持！<br>
 -----------------------------------------------------------------------------------------<br>
