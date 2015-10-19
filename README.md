@@ -6,7 +6,7 @@ FGGSwitch 简介<br>
 一、前言：<br>
 ->FGGSwtich是UIView的子类，目的是为了实现随意改变Switch的大小。<br>
 ->由于系统自带的UISwitch的frame固定为53x31无法修改，因此自定义一个Switch。<br>
-->FGGSwitch虽然看起来和UISwitch差不多，但嘴本质的区别是：FGGSwitch可以随意改变大小，而UISwtich则不能改变大小(其大小固定为53x31)！<br>
+->FGGSwitch虽然看起来和UISwitch差不多，但最本质的区别是：FGGSwitch可以随意改变大小，而UISwtich则不能改变大小(其大小固定为53x31)！<br>
 ->FGGSwitch——可以改变大小的UISwitch<br>
 <br>
 二、用法：<br>
